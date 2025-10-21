@@ -11,9 +11,9 @@
 
 | Nº | Nombre del ejercicio | Descripción | Carpeta | Tema principal |
 |----|-----------------------|--------------|----------|----------------|
-| 1 | 💻 **Pilas en Java** | Implementación de una pila genérica con interfaz `IStack`, clase `StackArray` y clase de prueba `MainStack`. | [`/Código/pilas`](./Código/pilas) | Pilas y estructuras LIFO |
-| 2 | 🔗 **Listas simples** | Definición de nodos, creación de lista y manejo de objetos tipo `Estudiante` y `FilaJoker`. | [`/Código/listas`](./Código/listas) | Listas enlazadas simples |
-| 3 | 🔁 **Lista doblemente enlazada** | Implementación de la estructura con punteros `next` y `previous`. | [`/Código/listaDoble`](./Código/listaDoble) | Listas dobles enlazadas |
+| 1 | 💻 **Pilas en Java** | Implementación de una pila genérica con interfaz `IStack`, clase `StackArray` y clase de prueba `MainStack`. | [`/Codigo/pilas`](./Código/pilas) | Pilas y estructuras LIFO |
+| 2 | 🔗 **Listas simples** | Definición de nodos, creación de lista y manejo de objetos tipo `Estudiante` y `FilaJoker`. | [`/Codigo/listas`](./Código/listas) | Listas enlazadas simples |
+| 3 | 🔁 **Lista doblemente enlazada** | Implementación de la estructura con punteros `next` y `previous`. | [`/Codigo/listaDoble`](./Código/listaDoble) | Listas dobles enlazadas |
 
 ---
 
