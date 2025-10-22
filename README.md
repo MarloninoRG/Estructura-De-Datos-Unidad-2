@@ -17,15 +17,15 @@ Incluye una clase principal para pruebas (`MainStack.java`).
 
 | Archivo | Descripción | Enlace |
 |----------|--------------|--------|
-| `IStack.java` | Interfaz que define las operaciones básicas de una pila. | [Ver código](./Ejercicios%20Guiados/Codigo/pilas/IStack.java) |
-| `StackArray.java` | Implementación de la pila usando un arreglo genérico. | [Ver código](./Ejercicios%20Guiados/Codigo/pilas/StackArray.java) |
-| `MainStack.java` | Clase principal para probar las operaciones push, pop y peek. | [Ver código](./Ejercicios%20Guiados/Codigo/pilas/MainStack.java) |
+| `IStack.java` | Interfaz que define las operaciones básicas de una pila. | [Ver código](./Ejercicios_Guiados/Codigo/pilas/IStack.java) |
+| `StackArray.java` | Implementación de la pila usando un arreglo genérico. | [Ver código](./Ejercicios_Guiados/Codigo/pilas/StackArray.java) |
+| `MainStack.java` | Clase principal para probar las operaciones push, pop y peek. | [Ver código](./Ejercicios_Guiados/Codigo/pilas/MainStack.java) |
 
 ### 📘 Documento relacionado
 
 | Archivo | Descripción | Enlace |
 |----------|--------------|--------|
-| `ACT2_ED_PilasVisuAlgo_Marlon.pdf` | Actividad 2: Implementación visual de pilas en Java. | [Ver documento](./Ejercicios%20Guiados/Documentos/ACT2_ED_PilasVisuAlgo_Marlon.pdf) |
+| `ACT2_ED_PilasVisuAlgo_Marlon.pdf` | Actividad 2: Implementación visual de pilas en Java. | [Ver documento](./Ejercicios_Guiados/Documentos/ACT2_ED_PilasVisuAlgo_Marlon.pdf) |
 
 ---
 
@@ -37,16 +37,16 @@ Implementación de **listas enlazadas simples**, manejo de nodos y objetos perso
 
 | Archivo | Descripción | Enlace |
 |----------|--------------|--------|
-| `Nodo.java` | Clase que representa un nodo en la lista enlazada. | [Ver código](./Ejercicios%20Guiados/Codigo/listas/Nodo.java) |
-| `Estudiante.java` | Clase modelo usada dentro de la lista. | [Ver código](./Ejercicios%20Guiados/Codigo/listas/Estudiante.java) |
-| `FilaJoker.java` | Ejemplo de lista que maneja una fila de objetos. | [Ver código](./Ejercicios%20Guiados/Codigo/listas/FilaJoker.java) |
+| `Nodo.java` | Clase que representa un nodo en la lista enlazada. | [Ver código](./Ejercicios_Guiados/Codigo/listas/Nodo.java) |
+| `Estudiante.java` | Clase modelo usada dentro de la lista. | [Ver código](./Ejercicios_Guiados/Codigo/listas/Estudiante.java) |
+| `FilaJoker.java` | Ejemplo de lista que maneja una fila de objetos. | [Ver código](./Ejercicios_Guiados/Codigo/listas/FilaJoker.java) |
 
 ### 📘 Documentos relacionados
 
 | Archivo | Descripción | Enlace |
 |----------|--------------|--------|
-| `ACT_ED_Listas_en_Java.pdf` | Actividad sobre listas enlazadas simples. | [Ver documento](./Ejercicios%20Guiados/Documentos/ACT_ED_Listas%20en%20Java.pdf) |
-| `U2ACT2_ListaEncanda_Marlon.pdf` | Ejercicio práctico de listas enlazadas. | [Ver documento](./Ejercicios%20Guiados/Documentos/U2ACT2_ListaEncanda_Marlon.pdf) |
+| `ACT_ED_Listas_en_Java.pdf` | Actividad sobre listas enlazadas simples. | [Ver documento](./Ejercicios_Guiados/Documentos/ACT_ED_Listas%20en%20Java.pdf) |
+| `U2ACT2_ListaEncanda_Marlon.pdf` | Ejercicio práctico de listas enlazadas. | [Ver documento](./Ejercicios_Guiados/Documentos/U2ACT2_ListaEncanda_Marlon.pdf) |
 
 ---
 
@@ -58,13 +58,13 @@ Implementación de una **lista doblemente enlazada**, donde cada nodo contiene r
 
 | Archivo | Descripción | Enlace |
 |----------|--------------|--------|
-| `Nodo.java` | Clase nodo para lista doblemente enlazada. | [Ver código](./Ejercicios%20Guiados/Codigo/listaDoble/Nodo.java) |
+| `Nodo.java` | Clase nodo para lista doblemente enlazada. | [Ver código](./Ejercicios_Guiados/Codigo/listaDoble/Nodo.java) |
 
 ### 📘 Documentos relacionados
 
 | Archivo | Descripción | Enlace |
 |----------|--------------|--------|
-| `U2ACT3_ED_MarlonRojas_GTID.pdf` | Actividad 3: Lista doblemente enlazada. | [Ver documento](./Ejercicios%20Guiados/Documentos/U2ACT3_ED_MarlonRojas_GTID.pdf) |
+| `U2ACT3_ED_MarlonRojas_GTID.pdf` | Actividad 3: Lista doblemente enlazada. | [Ver documento](./Ejercicios_Guiados/Documentos/U2ACT3_ED_MarlonRojas_GTID.pdf) |
 
 ---
 
@@ -72,7 +72,7 @@ Implementación de una **lista doblemente enlazada**, donde cada nodo contiene r
 
 | Archivo | Descripción | Enlace |
 |----------|--------------|--------|
-| `U2ACT1_EstructuraDeDatos.pdf` | Documento teórico con los fundamentos de la Unidad 2. | [Ver documento](./Ejercicios%20Guiados/Documentos/U2ACT1_EstructuraDeDatos.pdf) |
+| `U2ACT1_EstructuraDeDatos.pdf` | Documento teórico con los fundamentos de la Unidad 2. | [Ver documento](./Ejercicios_Guiados/Documentos/U2ACT1_EstructuraDeDatos.pdf) |
 
 ---
 
