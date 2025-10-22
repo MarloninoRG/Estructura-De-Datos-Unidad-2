@@ -65,7 +65,7 @@ Implementación de una **lista doblemente enlazada**, donde cada nodo contiene r
 
 | Archivo | Descripción | Enlace |
 |----------|--------------|--------|
-| `U2ACT3_ED_MarlonRojas_GTID.pdf` | Actividad 3: Lista doblemente enlazada. | [Ver documento](./Ejercicios_Guiados/Documentos/U2ACT3_ED_MarlonRojas_GTID0141.pdf) |
+| `U2ACT3_ED_MarlonRojas_GTID.pdf` | Actividad 3: Actividad Practica de Listas Doblemente Enlazadas | [Ver documento](./Ejercicios_Guiados/Documentos/U2ACT3_ED_MarlonRojas_GTID0141.pdf) |
 
 ---
 
