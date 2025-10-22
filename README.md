@@ -46,7 +46,7 @@ Implementación de **listas enlazadas simples**, manejo de nodos y objetos perso
 | Archivo | Descripción | Enlace |
 |----------|--------------|--------|
 | `ACT_ED_Listas_en_Java.pdf` | Actividad sobre listas enlazadas simples. | [Ver documento](./Ejercicios_Guiados/Documentos/ACT_ED_Listas_en_Java.pdf) |
-| `U2ACT2_ListaEncanda_Marlon.pdf` | Ejercicio práctico de listas enlazadas. | [Ver documento](./Ejercicios_Guiados/Documentos/U2ACT2_ListaEncanda_Marlon.pdf) |
+| `U2ACT2_ListaEncanda_Marlon.pdf` | Ejercicio práctico de listas enlazadas. | [Ver documento](./Ejercicios_Guiados/Documentos/U2ACT2_ListaEncanda_MarlonRojasGalindo_GTID0141.pdf) |
 
 ---
 
