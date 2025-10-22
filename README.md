@@ -98,24 +98,24 @@ Implementación de una **lista doblemente enlazada**, donde cada nodo contiene r
 | `Actividad3` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad3/Actividad3.java) |
 | `ListaEnlazada` | Clase de una lista enlazada | [Ver Archivo](./Ejercicios_Practicos/actividad3/ListaEnlazada.java) |
 | `Nodo.java` | Clase de un Nodo simple | [Ver Archivo](./Ejercicios_Practicos/actividad3/Nodo.java) |
-| `Polinomio.java` | Clase de un polinomio | [Ver Archivo](./Ejercicios_Practicos/actividad3/Polinomio.java) |
-| `Termino.java` | Clase de un término | [Ver Archivo](./Ejercicios_Practicos/actividad3/Termino.java) |
+| `Polinomio.java` | Clase de un polinomio | [Ver código](./Ejercicios_Practicos/actividad3/Polinomio.java) |
+| `Termino.java` | Clase de un término | [Ver código](./Ejercicios_Practicos/actividad3/Termino.java) |
 
 ## Actividad 4: Polinomio de lista enlazada circular 
 
 | Archivo | Descripcion | Enlace |
 |---------|-------------|--------|
-| `Actividad4` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad4/Actividad4.java) |
-| `Nodo.java` | Clase de un Nodo simple | [Ver Archivo](./Ejercicios_Practicos/actividad4/Nodo.java) |
-| `PolinomioCircular.java` | Clase de una lista circular de polinomios | [Ver Archivo](./Ejercicios_Practicos/actividad4/PolinomioCircular.java) |
+| `Actividad4` | Clase que ejecuta el programa | [Ver código](./Ejercicios_Practicos/actividad4/Actividad4.java) |
+| `Nodo.java` | Clase de un Nodo simple | [Ver código](./Ejercicios_Practicos/actividad4/Nodo.java) |
+| `PolinomioCircular.java` | Clase de una lista circular de polinomios | [Ver código](./Ejercicios_Practicos/actividad4/PolinomioCircular.java) |
 
 ## Actividad 5: Lista doblemente enlazada de caracteres
 
 | Archivo | Descripcion | Enlace |
 |---------|-------------|--------|
-| `Actividad5` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad5/Actividad5.java) |
-| `NodoDoble.java` | Clase de un Nodo doble | [Ver Archivo](./Ejercicios_Practicos/actividad5/NodoDoble.java) |
-| `ListaDobleEnlazada` | Clase de una lista doblemente enlazada | [Ver Archivo](./Ejercicios_Practicos/actividad5/ListaDobleEnlazada.java) |
+| `Actividad5` | Clase que ejecuta el programa | [Ver código](./Ejercicios_Practicos/actividad5/Actividad5.java) |
+| `NodoDoble.java` | Clase de un Nodo doble | [Ver código](./Ejercicios_Practicos/actividad5/NodoDoble.java) |
+| `ListaDobleEnlazada` | Clase de una lista doblemente enlazada | [Ver código](./Ejercicios_Practicos/actividad5/ListaDobleEnlazada.java) |
 
 ## 🧰 Tecnologías utilizadas
 
