@@ -5,41 +5,74 @@
 ### No. Control 1224100711
 
 
----
-
-## 🧩 Ejercicios guiados
-
-| Nº | Nombre del ejercicio | Descripción | Carpeta | Tema principal |
-|----|-----------------------|--------------|----------|----------------|
-| 1 | 💻 **Pilas en Java** | Implementación de una pila genérica con interfaz `IStack`, clase `StackArray` y clase de prueba `MainStack`. | [`Ver Código`](Ejercicios-Guiados/Codigo/pilas) | Pilas y estructuras LIFO |
-| 2 | 🔗 **Listas simples** | Definición de nodos, creación de lista y manejo de objetos tipo `Estudiante` y `FilaJoker`. | [`/Codigo/listas`](./Código/listas) | Listas enlazadas simples |
-| 3 | 🔁 **Lista doblemente enlazada** | Implementación de la estructura con punteros `next` y `previous`. | [`/Codigo/listaDoble`](./Código/listaDoble) | Listas dobles enlazadas |
 
 ---
 
-## 📄 Documentos
+## 🧩 PILAS
 
-| Archivo | Descripción |
-|----------|-------------|
-| 📘 **ACT2_ED_PilasVisuAlgo_Marlon.pdf** | Actividad 2: Implementación visual de pilas en Java. |
-| 📗 **ACT_ED_Listas_en_Java.pdf** | Actividad sobre listas enlazadas simples. |
-| 📙 **U2ACT1_EstructuraDeDatos.pdf** | Documento con fundamentos teóricos de estructuras de datos. |
-| 📕 **U2ACT2_ListaEncanda_Marlon.pdf** | Ejercicio práctico de listas enlazadas. |
-| 📒 **U2ACT3_ED_MarlonRojas_GTID.pdf** | Evidencia de prácticas de la Unidad 2. |
+Implementación de una **pila genérica** utilizando arreglos y una interfaz `IStack`.  
+Incluye una clase principal para pruebas (`MainStack.java`).
 
-📁 Todos los documentos están disponibles en la carpeta [`/Documentos`](./Documentos).
+### 📄 Código fuente
+
+| Archivo | Descripción | Enlace |
+|----------|--------------|--------|
+| `IStack.java` | Interfaz que define las operaciones básicas de una pila. | [Ver código](./Ejercicios%20Guiados/Codigo/pilas/IStack.java) |
+| `StackArray.java` | Implementación de la pila usando un arreglo genérico. | [Ver código](./Ejercicios%20Guiados/Codigo/pilas/StackArray.java) |
+| `MainStack.java` | Clase principal para probar las operaciones push, pop y peek. | [Ver código](./Ejercicios%20Guiados/Codigo/pilas/MainStack.java) |
+
+### 📘 Documento relacionado
+
+| Archivo | Descripción | Enlace |
+|----------|--------------|--------|
+| `ACT2_ED_PilasVisuAlgo_Marlon.pdf` | Actividad 2: Implementación visual de pilas en Java. | [Ver documento](./Ejercicios%20Guiados/Documentos/ACT2_ED_PilasVisuAlgo_Marlon.pdf) |
 
 ---
 
-## 💻 Código fuente
+## 🔗 LISTAS SIMPLES
 
-Cada carpeta contiene código Java correspondiente a una estructura de datos diferente:
+Implementación de **listas enlazadas simples**, manejo de nodos y objetos personalizados como `Estudiante` y `FilaJoker`.
 
-| Carpeta | Contenido | Lenguaje |
-|----------|------------|----------|
-| [`/Código/pilas`](./Código/pilas) | Clases `IStack`, `StackArray`, `MainStack`. | Java |
-| [`/Código/listas`](./Código/listas) | Clases `Nodo`, `Estudiante`, `FilaJoker`. | Java |
-| [`/Código/listaDoble`](./Código/listaDoble) | Clase `Nodo` con referencias dobles. | Java |
+### 📄 Código fuente
+
+| Archivo | Descripción | Enlace |
+|----------|--------------|--------|
+| `Nodo.java` | Clase que representa un nodo en la lista enlazada. | [Ver código](./Ejercicios%20Guiados/Codigo/listas/Nodo.java) |
+| `Estudiante.java` | Clase modelo usada dentro de la lista. | [Ver código](./Ejercicios%20Guiados/Codigo/listas/Estudiante.java) |
+| `FilaJoker.java` | Ejemplo de lista que maneja una fila de objetos. | [Ver código](./Ejercicios%20Guiados/Codigo/listas/FilaJoker.java) |
+
+### 📘 Documentos relacionados
+
+| Archivo | Descripción | Enlace |
+|----------|--------------|--------|
+| `ACT_ED_Listas_en_Java.pdf` | Actividad sobre listas enlazadas simples. | [Ver documento](./Ejercicios%20Guiados/Documentos/ACT_ED_Listas%20en%20Java.pdf) |
+| `U2ACT2_ListaEncanda_Marlon.pdf` | Ejercicio práctico de listas enlazadas. | [Ver documento](./Ejercicios%20Guiados/Documentos/U2ACT2_ListaEncanda_Marlon.pdf) |
+
+---
+
+## 🔁 LISTA DOBLEMENTE ENLAZADA
+
+Implementación de una **lista doblemente enlazada**, donde cada nodo contiene referencias tanto al siguiente como al anterior.
+
+### 📄 Código fuente
+
+| Archivo | Descripción | Enlace |
+|----------|--------------|--------|
+| `Nodo.java` | Clase nodo para lista doblemente enlazada. | [Ver código](./Ejercicios%20Guiados/Codigo/listaDoble/Nodo.java) |
+
+### 📘 Documentos relacionados
+
+| Archivo | Descripción | Enlace |
+|----------|--------------|--------|
+| `U2ACT3_ED_MarlonRojas_GTID.pdf` | Actividad 3: Lista doblemente enlazada. | [Ver documento](./Ejercicios%20Guiados/Documentos/U2ACT3_ED_MarlonRojas_GTID.pdf) |
+
+---
+
+## 📚 DOCUMENTO TEÓRICO
+
+| Archivo | Descripción | Enlace |
+|----------|--------------|--------|
+| `U2ACT1_EstructuraDeDatos.pdf` | Documento teórico con los fundamentos de la Unidad 2. | [Ver documento](./Ejercicios%20Guiados/Documentos/U2ACT1_EstructuraDeDatos.pdf) |
 
 ---
 
@@ -47,21 +80,15 @@ Cada carpeta contiene código Java correspondiente a una estructura de datos dif
 
 ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=github&logoColor=white)
-![NetBeans](https://img.shields.io/badge/Apache_NetBeans_IDE-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white)
-
----
-
-## 📈 Estadísticas de GitHub
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact&theme=tokyonight)
+![NetBeans](https://img.shields.io/badge/NetBeans_IDE-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white)
 
 ---
 
 ## ✉️ Contacto
 
 📧 **Correo:** marlon.rojas@utng.edu.mx  
+💼 **GitHub:** [MarloninoRG](https://github.com/MarloninoRG)
 
 ---
 
-> _"La práctica constante convierte el conocimiento en habilidad."_ 💡
+> _“La práctica constante convierte el conocimiento en habilidad.”_ 💡
