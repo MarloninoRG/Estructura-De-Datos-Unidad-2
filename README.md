@@ -77,39 +77,45 @@ Implementación de una **lista doblemente enlazada**, donde cada nodo contiene r
 
 | Archivo | Descripcion | Enlace |
 |---------|-------------|--------|
-| `Actividad1` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad1/Actividad1.java) |
-| `ListaSimple` | Clase de una lista simple | [Ver Archivo](./Ejercicios_Practicos/actividad1/ListaSimple.java) |
-|`Nodo` | Clase de un Nodo simple | [Ver Archivo](./Ejercicios_Practicos/actividad1/Nodo.java) |
+| `Actividad1.java` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad1/Actividad1.java) |
+| `ListaSimple.java` | Clase de una lista simple | [Ver Archivo](./Ejercicios_Practicos/actividad1/ListaSimple.java) |
+|`Nodo.java` | Clase de un Nodo simple | [Ver Archivo](./Ejercicios_Practicos/actividad1/Nodo.java) |
 
 ## Actividad 2: Lista enlazada de palabras desde Archivo
 
 | Archivo | Descripcion | Enlace |
 |---------|-------------|--------|
-| `Actividad2` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad1/Actividad2.java) |
-| `Archivo.txt` | Archivo auxiliar para el programa | [Ver Archivo](./Ejercicios_Practicos/actividad1/Archivo.txt) |
+| `Actividad2.java` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad2/Actividad2.java) |
+| `Archivo.txt` | Archivo auxiliar para el programa | [Ver Archivo](./Ejercicios_Practicos/actividad2/Archivo.txt) |
+| `GestorArchivos.java` | Clase para controlar las operaciones del archivo | [Ver Archivo](./Ejercicios_Practicos/actividad2/GestorArchivos.java) |
+| `ListaEnlazada` | Clase de una lista enlazada | [Ver Archivo](./Ejercicios_Practicos/actividad2/ListaEnlazada.java) |
+|`Nodo.java` | Clase de un Nodo simple | [Ver Archivo](./Ejercicios_Practicos/actividad2/Nodo.java) |
 
 ## Actividad 3: Representación y evaluación de polinomios con listas enlazadas
 
 | Archivo | Descripcion | Enlace |
 |---------|-------------|--------|
-| `Actividad3` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad1/Actividad3.java) |
+| `Actividad3` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad3/Actividad3.java) |
+| `ListaEnlazada` | Clase de una lista enlazada | [Ver Archivo](./Ejercicios_Practicos/actividad3/ListaEnlazada.java) |
+| `Nodo.java` | Clase de un Nodo simple | [Ver Archivo](./Ejercicios_Practicos/actividad3/Nodo.java) |
+| `Polinomio.java` | Clase de un polinomio | [Ver Archivo](./Ejercicios_Practicos/actividad3/Polinomio.java) |
+| `Termino.java` | Clase de un término | [Ver Archivo](./Ejercicios_Practicos/actividad3/Termino.java) |
 
 ## Actividad 4: Polinomio de lista enlazada circular 
 
 | Archivo | Descripcion | Enlace |
 |---------|-------------|--------|
-| `Actividad4` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad1/Actividad4.java) |
+| `Actividad4` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad4/Actividad4.java) |
+| `Nodo.java` | Clase de un Nodo simple | [Ver Archivo](./Ejercicios_Practicos/actividad4/Nodo.java) |
+| `PolinomioCircular.java` | Clase de una lista circular de polinomios | [Ver Archivo](./Ejercicios_Practicos/actividad4/PolinomioCircular.java) |
 
 ## Actividad 5: Lista doblemente enlazada de caracteres
 
 | Archivo | Descripcion | Enlace |
 |---------|-------------|--------|
-| `Actividad5` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad1/Actividad5.java) |
-
-## Actividad 2
-## Actividad 3
-## Actividad 4
-## Actividad 5
+| `Actividad5` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad5/Actividad5.java) |
+| `NodoDoble.java` | Clase de un Nodo doble | [Ver Archivo](./Ejercicios_Practicos/actividad5/NodoDoble.java) |
+| `ListaDobleEnlazada` | Clase de una lista doblemente enlazada | [Ver Archivo](./Ejercicios_Practicos/actividad5/ListaDobleEnlazada.java) |
 
 ## 🧰 Tecnologías utilizadas
 
