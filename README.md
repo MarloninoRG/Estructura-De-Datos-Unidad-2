@@ -25,7 +25,7 @@ Incluye una clase principal para pruebas (`MainStack.java`).
 
 | Archivo | Descripción | Enlace |
 |----------|--------------|--------|
-| `ACT2_ED_PilasVisuAlgo_Marlon.pdf` | Actividad 2: Implementación visual de pilas en Java. | [Ver documento](/Ejercicios_Guiados/Documentos/ACT2_ED_PilasVisuAlgo_Marlon.pdf) |
+| `ACT2_ED_PilasVisuAlgo_Marlon.pdf` | Actividad 2: Implementación visual de pilas en Java. | [Ver documento](/Ejercicios_Guiados/Documentos/ACT2_ED_PilasVisuAlgo_Marlon.pdf?raw=true) |
 
 ---
 
