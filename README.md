@@ -47,6 +47,7 @@ Implementación de **listas enlazadas simples**, manejo de nodos y objetos perso
 |----------|--------------|--------|
 | `ACT_ED_Listas_en_Java.pdf` | Actividad sobre listas enlazadas simples. | [Ver documento](./Ejercicios_Guiados/Documentos/ACT_ED_Listas_en_Java.pdf) |
 | `U2ACT2_ListaEncanda_Marlon.pdf` | Ejercicio práctico de listas enlazadas. | [Ver documento](./Ejercicios_Guiados/Documentos/U2ACT2_ListaEncanda_MarlonRojasGalindo_GTID0141.pdf) |
+| `U2ACT1_EstructuraDeDatos.pdf` | Actividad de Listas Simples en VisuAlgo | [Ver documento](./Ejercicios_Guiados/Documentos/U2ACT1_EstructuraDeDatos.pdf) |
 
 ---
 
@@ -65,14 +66,6 @@ Implementación de una **lista doblemente enlazada**, donde cada nodo contiene r
 | Archivo | Descripción | Enlace |
 |----------|--------------|--------|
 | `U2ACT3_ED_MarlonRojas_GTID.pdf` | Actividad 3: Lista doblemente enlazada. | [Ver documento](./Ejercicios_Guiados/Documentos/U2ACT3_ED_MarlonRojas_GTID0141.pdf) |
-
----
-
-## 📚 DOCUMENTO TEÓRICO
-
-| Archivo | Descripción | Enlace |
-|----------|--------------|--------|
-| `U2ACT1_EstructuraDeDatos.pdf` | Documento teórico con los fundamentos de la Unidad 2. | [Ver documento](./Ejercicios_Guiados/Documentos/U2ACT1_EstructuraDeDatos.pdf) |
 
 ---
 
