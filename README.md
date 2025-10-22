@@ -79,9 +79,9 @@ Implementación de una **lista doblemente enlazada**, donde cada nodo contiene r
 
 ## ✉️ Contacto
 
-📧 **Correo:** marlon.rojas@utng.edu.mx  
+📧 **Correo:** marlonrojasuniversity@gmail.com  
 💼 **GitHub:** [MarloninoRG](https://github.com/MarloninoRG)
 
 ---
 
-> _“La práctica constante convierte el conocimiento en habilidad.”_ 💡
+> _“La disciplina es la base de la perfección.”_ 💡
