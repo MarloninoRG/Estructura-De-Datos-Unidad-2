@@ -8,6 +8,8 @@
 
 ---
 
+# Ejercicios Guiados
+
 ## 🧩 PILAS
 
 Implementación de una **pila genérica** utilizando arreglos y una interfaz `IStack`.  
@@ -68,6 +70,46 @@ Implementación de una **lista doblemente enlazada**, donde cada nodo contiene r
 | `U2ACT3_ED_MarlonRojas_GTID.pdf` | Actividad 3: Actividad Practica de Listas Doblemente Enlazadas | [Ver documento](./Ejercicios_Guiados/Documentos/U2ACT3_ED_MarlonRojas_GTID0141.pdf) |
 
 ---
+
+# Ejercicios Practicos
+
+## Actividad 1 : Manipulación de lista enlazada
+
+| Archivo | Descripcion | Enlace |
+|---------|-------------|--------|
+| `Actividad1` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad1/Actividad1.java) |
+| `ListaSimple` | Clase de una lista simple | [Ver Archivo](./Ejercicios_Practicos/actividad1/ListaSimple.java) |
+|`Nodo` | Clase de un Nodo simple | [Ver Archivo](./Ejercicios_Practicos/actividad1/Nodo.java) |
+
+## Actividad 2: Lista enlazada de palabras desde Archivo
+
+| Archivo | Descripcion | Enlace |
+|---------|-------------|--------|
+| `Actividad2` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad1/Actividad2.java) |
+| `Archivo.txt` | Archivo auxiliar para el programa | [Ver Archivo](./Ejercicios_Practicos/actividad1/Archivo.txt) |
+
+## Actividad 3: Representación y evaluación de polinomios con listas enlazadas
+
+| Archivo | Descripcion | Enlace |
+|---------|-------------|--------|
+| `Actividad3` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad1/Actividad3.java) |
+
+## Actividad 4: Polinomio de lista enlazada circular 
+
+| Archivo | Descripcion | Enlace |
+|---------|-------------|--------|
+| `Actividad4` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad1/Actividad4.java) |
+
+## Actividad 5: Lista doblemente enlazada de caracteres
+
+| Archivo | Descripcion | Enlace |
+|---------|-------------|--------|
+| `Actividad5` | Clase que ejecuta el programa | [Ver Archivo](./Ejercicios_Practicos/actividad1/Actividad5.java) |
+
+## Actividad 2
+## Actividad 3
+## Actividad 4
+## Actividad 5
 
 ## 🧰 Tecnologías utilizadas
 
