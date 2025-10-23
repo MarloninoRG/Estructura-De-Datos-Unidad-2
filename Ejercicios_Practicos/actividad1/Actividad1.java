@@ -51,15 +51,3 @@ public class Actividad1 {
         teclado.close();
     }
 }
-
-/*
- * NOTAS TÉCNICAS:
- * 
- * - Complejidad temporal: O(n) donde n es la cantidad de números generados
- * - Complejidad espacial: O(n) para almacenar la lista
- * 
- * MEJORAS SUGERIDAS:
- * - Validar que n > 0
- * - Manejar excepciones de entrada (InputMismatchException)
- * - Usar try-with-resources para el Scanner
- */

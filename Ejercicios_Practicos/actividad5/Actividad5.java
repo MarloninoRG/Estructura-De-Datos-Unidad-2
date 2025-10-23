@@ -8,19 +8,11 @@ import java.util.Scanner;
  * Clase principal que implementa un programa interactivo para manipular
  * listas doblemente enlazadas de caracteres con capacidades de ordenamiento.
  * 
- * El programa permite:
+ * Funcionalidades:
  * - Crear listas a partir de cadenas de texto
- * - Visualizar listas en ambas direcciones (adelante y atrás)
- * - Ordenar caracteres usando tres algoritmos diferentes
+ * - Visualizar listas en ambas direcciones
+ * - Ordenar caracteres usando tres algoritmos (burbuja, inserción, selección)
  * - Verificar la integridad estructural de la lista
- * - Realizar operaciones de diagnóstico y análisis
- * 
- * Características principales:
- * - Interfaz de usuario interactiva con menú navegable
- * - Soporte completo para caracteres UTF-8
- * - Manejo robusto de excepciones y entradas inválidas
- * - Comparación de diferentes algoritmos de ordenamiento
- * - Verificación de integridad de la estructura de datos
  * 
  * @author Marlon Rojas Galindo
  * @contact marlonrojasuniversity@gmail.com
@@ -31,19 +23,12 @@ public class Actividad5 {
     
     /**
      * Construye una lista doblemente enlazada a partir de una cadena de texto.
+     * Cada carácter se convierte en un nodo individual.
      * 
-     * Cada carácter de la cadena se convierte en un nodo individual en la lista.
-     * Los caracteres se agregan en el orden de aparición en la cadena.
+     * @param cadena Cadena de texto de entrada
+     * @return Lista doblemente enlazada con los caracteres
      * 
-     * @param cadena Cadena de texto de entrada (no nula, puede estar vacía)
-     * @return Lista doblemente enlazada conteniendo todos los caracteres de la cadena
-     * 
-     * Complejidad: O(n) donde n es la longitud de la cadena
-     * 
-     * Ejemplo:
-     * construirListaDesdeTexto("Hola") → Lista: ['H' ↔ 'o' ↔ 'l' ↔ 'a']
-     * 
-     * @throws NullPointerException si cadena es null
+     * Complejidad: O(n)
      */
     public static ListaDobleEnlazada<Character> construirListaDesdeTexto(String cadena) {
         ListaDobleEnlazada<Character> lista = new ListaDobleEnlazada<>();
@@ -56,25 +41,7 @@ public class Actividad5 {
     }
     
     /**
-     * Muestra el menú principal de opciones disponibles en el programa.
-     * 
-     * El menú incluye operaciones para:
-     * - Gestión de listas (crear, mostrar)
-     * - Algoritmos de ordenamiento (burbuja, inserción, selección)
-     * - Diagnóstico y verificación de integridad
-     * - Control del programa (salir)
-     * 
-     * Formato de salida:
-     * ========================================
-     *             MENU DE OPCIONES            
-     * ========================================
-     * 1. Ingresar nueva cadena
-     * 2. Mostrar lista (adelante)
-     * 3. Mostrar lista (atras)
-     * ...
-     * ========================================
-     * 
-     * El menú se muestra centrado y con bordes para mejor legibilidad.
+     * Muestra el menú principal de opciones disponibles.
      */
     public static void mostrarMenu() {
         System.out.println("\n========================================");
@@ -94,35 +61,18 @@ public class Actividad5 {
     }
     
     /**
-     * Método principal que ejecuta el programa interactivo de listas doblemente enlazadas.
+     * Método principal que ejecuta el programa interactivo.
      * 
-     * Flujo de ejecución:
-     * 1. Configuración del entorno (UTF-8, Scanner)
-     * 2. Presentación inicial del programa
-     * 3. Bucle principal interactivo
-     * 4. Gestión de menú y operaciones
-     * 5. Liberación de recursos y salida
-     * 
-     * Características de la interfaz:
-     * - Entrada inicial obligatoria de cadena
-     * - Validación de entradas vacías
-     * - Manejo de excepciones robusto
-     * - Mensajes informativos y de error claros
-     * - Formato visual consistente
+     * Flujo:
+     * 1. Configuración del entorno (UTF-8)
+     * 2. Entrada inicial de cadena
+     * 3. Bucle interactivo con menú
+     * 4. Liberación de recursos
      * 
      * @param args Argumentos de línea de comandos (no utilizados)
-     * 
-     * Ejemplo de sesión típica:
-     * Ingrese una cadena de texto: programacion
-     * Lista creada exitosamente!
-     * Número de caracteres: 12
-     * 
-     * [Menú interactivo con opciones 1-8 y 0]
-     * 
-     * @see ListaDobleEnlazada
      */
     public static void main(String[] args) {
-        // Configurar codificación UTF-8 para soportar caracteres internacionales
+        // Configurar UTF-8
         try {
             System.setOut(new PrintStream(System.out, true, StandardCharsets.UTF_8));
         } catch (Exception e) {
@@ -132,7 +82,7 @@ public class Actividad5 {
         Scanner scanner = new Scanner(System.in, StandardCharsets.UTF_8);
         ListaDobleEnlazada<Character> lista = null;
         
-        // Encabezado del programa
+        // Encabezado
         System.out.println("========================================");
         System.out.println("  LISTA DOBLEMENTE ENLAZADA ORDENADA   ");
         System.out.println("========================================");
@@ -140,12 +90,8 @@ public class Actividad5 {
         
         boolean continuar = true;
         
-        /**
-         * Bucle principal del programa
-         * Mantiene la ejecución hasta que el usuario selecciona salir
-         */
         while (continuar) {
-            // Si no hay lista, solicitar una cadena inicial obligatoria
+            // Solicitar cadena inicial si no hay lista
             if (lista == null) {
                 System.out.print("Ingrese una cadena de texto: ");
                 String cadena = scanner.nextLine();
@@ -170,17 +116,12 @@ public class Actividad5 {
             
             try {
                 int opcion = scanner.nextInt();
-                scanner.nextLine(); // Limpiar buffer del newline
+                scanner.nextLine(); // Limpiar buffer
                 
                 System.out.println();
                 
-                /**
-                 * Switch principal para manejar todas las opciones del menú
-                 * Cada caso corresponde a una funcionalidad específica
-                 */
                 switch (opcion) {
                     case 1:
-                        // Opción 1: Crear nueva lista desde cadena
                         System.out.print("Ingrese una nueva cadena de texto: ");
                         String nuevaCadena = scanner.nextLine();
                         
@@ -195,7 +136,6 @@ public class Actividad5 {
                         break;
                         
                     case 2:
-                        // Opción 2: Mostrar lista en dirección hacia adelante
                         if (lista != null) {
                             lista.mostrarAdelante();
                         } else {
@@ -204,7 +144,6 @@ public class Actividad5 {
                         break;
                         
                     case 3:
-                        // Opción 3: Mostrar lista en dirección hacia atrás
                         if (lista != null) {
                             lista.mostrarAtras();
                         } else {
@@ -213,7 +152,6 @@ public class Actividad5 {
                         break;
                         
                     case 4:
-                        // Opción 4: Ordenar usando algoritmo Burbuja
                         if (lista != null) {
                             System.out.print("Lista antes de ordenar: ");
                             lista.mostrarCaracteres();
@@ -229,7 +167,6 @@ public class Actividad5 {
                         break;
                         
                     case 5:
-                        // Opción 5: Ordenar usando algoritmo Inserción
                         if (lista != null) {
                             System.out.print("Lista antes de ordenar: ");
                             lista.mostrarCaracteres();
@@ -245,7 +182,6 @@ public class Actividad5 {
                         break;
                         
                     case 6:
-                        // Opción 6: Ordenar usando algoritmo Selección
                         if (lista != null) {
                             System.out.print("Lista antes de ordenar: ");
                             lista.mostrarCaracteres();
@@ -261,7 +197,6 @@ public class Actividad5 {
                         break;
                         
                     case 7:
-                        // Opción 7: Mostrar información técnica de la lista
                         if (lista != null) {
                             lista.mostrarInformacion();
                         } else {
@@ -270,7 +205,6 @@ public class Actividad5 {
                         break;
                         
                     case 8:
-                        // Opción 8: Verificar integridad estructural de la lista
                         if (lista != null) {
                             boolean integra = lista.verificarIntegridad();
                             System.out.println("Verificacion de integridad: " + 
@@ -281,7 +215,6 @@ public class Actividad5 {
                         break;
                         
                     case 0:
-                        // Opción 0: Salir del programa
                         continuar = false;
                         System.out.println("========================================");
                         System.out.println("       Gracias por usar el programa     ");
@@ -294,64 +227,10 @@ public class Actividad5 {
                 
             } catch (Exception e) {
                 System.out.println("Error: Entrada invalida. Intente nuevamente.");
-                scanner.nextLine(); // Limpiar buffer de entrada inválida
+                scanner.nextLine(); // Limpiar buffer
             }
         }
         
         scanner.close();
     }
 }
-
-/*
- * NOTAS TÉCNICAS:
- * 
- * ARQUITECTURA DEL PROGRAMA:
- * - Separación clara entre lógica de UI y lógica de datos
- * - Patrón MVC implícito: Actividad5 (Vista/Controlador), ListaDobleEnlazada (Modelo)
- * - Flujo de control basado en estado (variable 'lista')
- * - Manejo centralizado de excepciones en bucle principal
- * 
- * CARACTERÍSTICAS DE USABILIDAD:
- * - Interfaz intuitiva con numeración consistente
- * - Validación de entradas en tiempo real
- * - Mensajes de confirmación para operaciones críticas
- * - Formato visual atractivo con separadores
- * - Navegación fluida entre opciones
- * 
- * MANEJO DE ENTRADA/SALIDA:
- * - Configuración UTF-8 para soporte multilingüe
- * - Scanner con manejo explícito de encoding
- * - Limpieza de buffer después de cada entrada numérica
- * - Salida formateada para mejor legibilidad
- * 
- * ALGORITMOS DE ORDENAMIENTO IMPLEMENTADOS:
- * - Burbuja: O(n²) estable, comparaciones adyacentes
- * - Inserción: O(n²) estable, eficiente para listas casi ordenadas
- * - Selección: O(n²) inestable, mínimo número de intercambios
- * 
- * FLUJO DE EJECUCIÓN ROBUSTO:
- * - Verificación de nulidad antes de cada operación
- * - Manejo de listas vacías
- * - Recuperación graceful de errores de entrada
- * - Liberación explícita de recursos (Scanner)
- * 
- * EJEMPLO DE USO COMPLETO:
- * Entrada: "programacion"
- * Opción 4 (Burbuja): "aacgimnoporr"
- * Opción 5 (Inserción): "aacgimnoporr" 
- * Opción 6 (Selección): "aacgimnoporr"
- * Opción 7: Muestra tamaño, primer/último nodo, etc.
- * Opción 8: "CORRECTA"
- * 
- * MEJORAS POSIBLES:
- * - Persistencia de listas en archivos
- * - Comparación de rendimiento entre algoritmos
- * - Ordenamiento descendente como opción
- * - Búsqueda de caracteres específicos
- * - Estadísticas de frecuencia de caracteres
- * - Interfaz gráfica de usuario (GUI)
- * - Historial de operaciones realizadas
- * - Exportación de resultados a formato texto
- * - Soporte para diferentes criterios de ordenamiento
- * - Análisis de complejidad en tiempo real
- */

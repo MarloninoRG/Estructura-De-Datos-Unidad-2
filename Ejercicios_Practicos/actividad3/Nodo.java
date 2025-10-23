@@ -1,11 +1,10 @@
 package ejerciciosGuiados.actividad3;
 
 /**
- * Representa un nodo genérico inmutable de una lista enlazada simple.
+ * Representa un nodo genérico de una lista enlazada simple.
  * Cada nodo almacena un dato de tipo T y una referencia al siguiente nodo.
  * 
- * Esta versión es más restrictiva que otras implementaciones, ya que
- * no permite modificar el dato después de la creación (sin setDato()).
+ * El dato es inmutable después de la creación (no tiene setDato()).
  * 
  * @param <T> Tipo de dato a almacenar en el nodo
  * 
@@ -16,15 +15,14 @@ package ejerciciosGuiados.actividad3;
  */
 public class Nodo<T> {
     
-    /** Dato almacenado en el nodo (inmutable después de la creación) */
+    /** Dato almacenado en el nodo (inmutable) */
     private T dato;
     
-    /** Referencia al siguiente nodo en la lista (null si es el último) */
+    /** Referencia al siguiente nodo (null si es el último) */
     private Nodo<T> siguiente;
     
     /**
      * Constructor que crea un nuevo nodo con un dato específico.
-     * El dato no podrá modificarse después de la creación.
      * 
      * @param dato Valor a almacenar en el nodo
      */
@@ -61,43 +59,3 @@ public class Nodo<T> {
         this.siguiente = siguiente;
     }
 }
-
-/*
- * NOTAS TÉCNICAS:
- * 
- * CARACTERÍSTICAS:
- * - Visibilidad pública: Puede usarse desde otros paquetes
- * - Dato inmutable: No tiene setDato(), el valor no puede cambiarse
- * - Enlace mutable: El siguiente nodo sí puede modificarse
- * - Genérico: Funciona con cualquier tipo de dato
- * 
- * DIFERENCIAS CON LA ACTIVIDAD 2:
- * - Actividad 2: Tenía setDato() - dato mutable
- * - Actividad 3: Sin setDato() - dato inmutable
- * - Actividad 2: Visibilidad package
- * - Actividad 3: Visibilidad pública
- * 
- * VENTAJAS DE LA INMUTABILIDAD:
- * - Thread-safe: Seguro para programación concurrente
- * - Predecible: El dato no cambia accidentalmente
- * - Más seguro: Previene modificaciones no deseadas
- * 
- * USO TÍPICO:
- * Nodo<Integer> nodo1 = new Nodo<>(10);
- * Nodo<Integer> nodo2 = new Nodo<>(20);
- * nodo1.setSiguiente(nodo2);  // Enlaza: 10 -> 20
- * 
- * // No es posible modificar el dato:
- * // nodo1.setDato(15); // ❌ Método no existe
- * 
- * COMPLEJIDAD:
- * - Constructor: O(1)
- * - getDato(): O(1)
- * - getSiguiente(): O(1)
- * - setSiguiente(): O(1)
- * 
- * CUÁNDO USAR ESTA VERSIÓN:
- * - Cuando los datos no deben cambiar después de crearse
- * - En estructuras donde solo se reorganizan enlaces
- * - Para garantizar integridad de datos
- */

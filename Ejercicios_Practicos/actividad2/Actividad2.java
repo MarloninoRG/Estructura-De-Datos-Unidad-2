@@ -114,7 +114,7 @@ public class Actividad2 {
      */
     private static void agregarPalabra(Scanner scanner, ListaEnlazada<String> lista) {
         System.out.print("\nIngrese la palabra a agregar: ");
-        String nuevaPalabra = scanner.nextLine().trim();
+        String nuevaPalabra = scanner.nextLine().trim(); //trim elimina los espacios de la linea
         
         if (!nuevaPalabra.isEmpty()) {
             lista.agregarAlFinal(nuevaPalabra);
@@ -153,25 +153,3 @@ public class Actividad2 {
         System.out.println("\n¡Hasta luego!");
     }
 }
-
-/*
- * NOTAS TÉCNICAS:
- * 
- * ESTRUCTURA:
- * - Patrón: Menú interactivo con ciclo while
- * - Persistencia: Archivo de texto para almacenamiento
- * - Estructura de datos: Lista enlazada genérica
- * 
- * DEPENDENCIAS:
- * - ListaEnlazada<String>: Estructura de datos principal
- * - GestorArchivos: Maneja lectura/escritura de archivos
- * - Scanner: Entrada de usuario
- * 
- * MEJORAS POSIBLES:
- * - Validar existencia del archivo antes de leer
- * - Agregar opción para buscar palabras
- * - Implementar ordenamiento alfabético
- * - Permitir modificar palabras existentes
- * - Usar path relativo en lugar de absoluto
- * - Agregar confirmación antes de salir si hay cambios sin guardar
- */

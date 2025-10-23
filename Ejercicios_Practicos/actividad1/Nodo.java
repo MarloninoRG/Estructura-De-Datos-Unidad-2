@@ -32,7 +32,7 @@ public class Nodo {
         this.dato = dato;
         this.siguiente = null;
     }
-
+    
     // Métodos getters y setters
     
     /**
@@ -72,22 +72,3 @@ public class Nodo {
         this.siguiente = siguiente;
     }
 }
-
-/*
- * CARACTERÍSTICAS DE LA CLASE:
- * 
- * - Encapsulamiento: Atributos privados con acceso mediante getters/setters
- * - Inmutabilidad parcial: El dato puede modificarse después de la creación
- * - Simplicidad: Solo dos atributos esenciales para una lista enlazada
- * 
- * USO TÍPICO:
- * 
- * Nodo nodo1 = new Nodo(10);
- * Nodo nodo2 = new Nodo(20);
- * nodo1.setSiguiente(nodo2);  // Enlaza nodo1 -> nodo2
- * 
- * MEJORAS POSIBLES:
- * - Sobrescribir toString() para facilitar depuración
- * - Sobrescribir equals() y hashCode() para comparaciones
- * - Hacer la clase genérica: Nodo<T> para cualquier tipo de dato
- */

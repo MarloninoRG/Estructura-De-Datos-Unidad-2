@@ -1,4 +1,5 @@
 package ejerciciosGuiados.actividad2;
+import java.util.List;
 
 /**
  * Implementación de una lista enlazada simple con tipos genéricos.
@@ -157,8 +158,8 @@ public class ListaEnlazada<T> {
      * 
      * @return Lista de Java con todos los elementos en el mismo orden
      */
-    public java.util.List<T> obtenerTodos() {
-        java.util.List<T> elementos = new java.util.ArrayList<>();
+    public List<T> obtenerTodos() {
+        List<T> elementos = new java.util.ArrayList<>();
         Nodo<T> actual = cabeza;
         
         // Recorrer y agregar cada elemento a la lista de Java
@@ -170,33 +171,3 @@ public class ListaEnlazada<T> {
         return elementos;
     }
 }
-
-/*
- * NOTAS TÉCNICAS:
- * 
- * CARACTERÍSTICAS:
- * - Genérica: Acepta cualquier tipo de dato (String, Integer, etc.)
- * - Tamaño mantenido: Contador actualizado en cada operación
- * - Encapsulamiento: Atributos privados con métodos públicos
- * 
- * COMPLEJIDAD TEMPORAL:
- * - agregarAlFinal(): O(n) - recorre toda la lista
- * - eliminar(): O(n) - búsqueda lineal
- * - estaVacia(): O(1) - verificación directa
- * - getTamaño(): O(1) - retorna atributo
- * - mostrar(): O(n) - recorre toda la lista
- * - obtenerTodos(): O(n) - recorre y copia elementos
- * 
- * COMPLEJIDAD ESPACIAL:
- * - Lista en sí: O(n) donde n es el número de elementos
- * - obtenerTodos(): O(n) adicional para la copia
- * 
- * MEJORAS POSIBLES:
- * - Mantener referencia al último nodo para inserción O(1)
- * - Agregar método agregarAlInicio() para inserción eficiente
- * - Implementar método buscar() que retorne boolean
- * - Agregar método obtenerPorIndice(int index)
- * - Implementar interfaz Iterable para usar en for-each
- * - Sobrescribir toString() para representación de texto
- * - Agregar método limpiar() para vaciar la lista
- */

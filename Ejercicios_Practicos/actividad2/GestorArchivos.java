@@ -109,29 +109,3 @@ public class GestorArchivos {
         }
     }
 }
-
-/*
- * NOTAS TÉCNICAS:
- * 
- * CARACTERÍSTICAS:
- * - Métodos estáticos: No requiere instanciar la clase
- * - Try-with-resources: Cierre automático de recursos (Java 7+)
- * - Manejo robusto de excepciones
- * - Feedback visual con símbolos (✓, ⚠, ✗)
- * 
- * FORMATO DE ARCHIVO:
- * - Entrada: Múltiples líneas con palabras separadas por espacios
- * - Salida: Una línea con todas las palabras separadas por espacios
- * 
- * COMPLEJIDAD:
- * - leerArchivo(): O(n) donde n es el número de palabras
- * - escribirArchivo(): O(n) donde n es el tamaño de la lista
- * 
- * MEJORAS POSIBLES:
- * - Agregar método para verificar existencia del archivo
- * - Implementar respaldo automático antes de sobrescribir
- * - Soportar diferentes encodings (UTF-8, ISO-8859-1, etc.)
- * - Agregar método para leer/escribir con formato específico
- * - Implementar logging en lugar de System.out
- * - Permitir configurar separador de palabras
- */

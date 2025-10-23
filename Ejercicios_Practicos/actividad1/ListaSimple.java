@@ -120,18 +120,3 @@ public class ListaSimple {
         }
     }
 }
-
-/*
- * CARACTERÍSTICAS DE LA IMPLEMENTACIÓN:
- * 
- * - Estructura: Lista enlazada simple unidireccional
- * - Inserción: Siempre al final (append)
- * - Búsqueda: No implementada
- * - Eliminación: Solo por criterio de valor (mayores que límite)
- * 
- * MEJORAS POSIBLES:
- * - Mantener referencia al último nodo para inserción O(1)
- * - Agregar método para obtener el tamaño de la lista
- * - Implementar eliminación por posición o valor específico
- * - Agregar validación de parámetros (cantidad >= 0)
- */
