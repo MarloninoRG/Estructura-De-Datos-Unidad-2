@@ -32,7 +32,7 @@ public class Nodo {
         this.dato = dato;
         this.siguiente = null;
     }
-    
+
     // Métodos getters y setters
     
     /**

@@ -21,10 +21,6 @@ import java.util.Scanner;
  */
 public class Actividad3 {
     public static void main(String[] args) {
-        // ========================================
-        // 1. INICIALIZACIÓN DE RECURSOS
-        // ========================================
-        
         /**
          * Scanner para lectura de entrada desde consola.
          * Se utiliza System.in como fuente de entrada estándar.
@@ -38,10 +34,6 @@ public class Actividad3 {
          */
         Polinomio polinomio = new Polinomio();
         
-        // ========================================
-        // 2. PRESENTACIÓN DEL PROGRAMA
-        // ========================================
-        
         /**
          * Banner decorativo que indica el propósito del programa.
          * Utiliza caracteres de caja Unicode para mejor presentación visual.
@@ -50,10 +42,6 @@ public class Actividad3 {
         System.out.println("║  REPRESENTACIÓN Y EVALUACIÓN DE POLINOMIOS     ║");
         System.out.println("║         CON LISTAS ENLAZADAS                   ║");
         System.out.println("╚════════════════════════════════════════════════╝\n");
-        
-        // ========================================
-        // 3. INSTRUCCIONES PARA EL USUARIO
-        // ========================================
         
         /**
          * Muestra las instrucciones de formato para ingresar términos.
@@ -69,10 +57,6 @@ public class Actividad3 {
         System.out.println("         -4 2 (representa -4x^2)");
         System.out.println("         11 0 (representa 11)");
         System.out.println("\nIngrese 'fin' para terminar.\n");
-        
-        // ========================================
-        // 4. CICLO DE LECTURA DE TÉRMINOS
-        // ========================================
         
         /**
          * Contador para identificar el número de término actual.
@@ -100,10 +84,6 @@ public class Actividad3 {
              */
             String entrada = scanner.nextLine().trim();
             
-            // ========================================
-            // 4.1 CONDICIÓN DE SALIDA
-            // ========================================
-            
             /**
              * Verifica si el usuario desea finalizar la entrada.
              * equalsIgnoreCase permite "fin", "FIN", "Fin", etc.
@@ -111,10 +91,6 @@ public class Actividad3 {
             if (entrada.equalsIgnoreCase("fin")) {
                 break; // Sale del bucle while
             }
-            
-            // ========================================
-            // 4.2 PROCESAMIENTO Y VALIDACIÓN
-            // ========================================
             
             /**
              * Bloque try-catch para capturar errores de formato numérico.
@@ -178,10 +154,6 @@ public class Actividad3 {
             }
         }
         
-        // ========================================
-        // 5. VERIFICACIÓN DE POLINOMIO VACÍO
-        // ========================================
-        
         /**
          * Verifica si se ingresaron términos antes de continuar.
          * 
@@ -196,10 +168,6 @@ public class Actividad3 {
             scanner.close(); // Importante: liberar recursos
             return; // Finaliza la ejecución del método main
         }
-        
-        // ========================================
-        // 6. VISUALIZACIÓN DEL POLINOMIO
-        // ========================================
         
         /**
          * Crea un separador visual usando el método repeat().
@@ -227,10 +195,6 @@ public class Actividad3 {
          */
         System.out.println("Grado del polinomio: " + polinomio.getGrado());
         
-        // ========================================
-        // 7. EVALUACIÓN EN RANGO PREDEFINIDO
-        // ========================================
-        
         System.out.println("\n" + "=".repeat(50));
         System.out.println("EVALUACIÓN DEL POLINOMIO");
         System.out.println("=".repeat(50));
@@ -252,10 +216,6 @@ public class Actividad3 {
          * ...
          */
         polinomio.mostrarTablaEvaluacion(0.0, 5.0, 0.5);
-        
-        // ========================================
-        // 8. EVALUACIONES PERSONALIZADAS
-        // ========================================
         
         /**
          * Pregunta al usuario si desea evaluar el polinomio en puntos específicos.
@@ -320,10 +280,6 @@ public class Actividad3 {
             System.out.print("\n¿Evaluar otro punto? (s/n): ");
             respuesta = scanner.nextLine().trim().toLowerCase();
         }
-        
-        // ========================================
-        // 9. FINALIZACIÓN DEL PROGRAMA
-        // ========================================
         
         /**
          * Mensaje de despedida para mejorar la experiencia del usuario.
