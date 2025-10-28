@@ -71,6 +71,26 @@ Implementación de una **lista doblemente enlazada**, donde cada nodo contiene r
 | `U2ACT3_ED_MarlonRojas_GTID.pdf` | Actividad 3: Actividad Practica de Listas Doblemente Enlazadas | [Ver documento](./Ejercicios_Guiados/Documentos/U2ACT3_ED_MarlonRojas_GTID0141.pdf) |
 
 ---
+## 🌀 Colas
+
+Implementación de un **TAD Cola** en Java, y realización de operaciones mediante un menú selectivo
+
+### 📄 Código fuente
+
+| Archivo | Descripción | Enlace |
+|----------|--------------|--------|
+| `Cola.java` | Clase de un TAD Cola con datos genéricos | [Ver código](./Ejercicios_Guiados/Codigo/colas/Cola.java) |
+| `Nodo.java` | Clase de un Nodo para un TAD Cola | [Ver código](./Ejercicios_Guiados/Codigo/colas/Nodo.java) |
+| `Main.java` | Clase main de prueba de las operaciones de un TAD Cola | [Ver código](./Ejercicios_Guiados/Codigo/colas/Main.java) |
+| `Menu.java`  | Clase main que implementa un menú con las operaciones de un TAD Cola | [Ver código](./Ejercicios_Guiados/Codigo/colas/Menu.java)
+
+### 📘 Documentos relacionados
+
+| Archivo | Descripción | Enlace |
+|----------|--------------|--------|
+| `U2ACT_Colas.pdf` | Actividad de TAD Cola en NearPod, EducaPlay, Implementación de colas en Java | [Ver documento](./Ejercicios_Guiados/Documentos/U2ACT_ED_Colas.pdf) |
+
+---
 
 # Ejercicios Practicos
 
