@@ -91,6 +91,14 @@ Implementación de un **TAD Cola** en Java, y realización de operaciones median
 | `U2ACT_Colas.pdf` | Actividad de TAD Cola en NearPod, EducaPlay, Implementación de colas en Java | [Ver documento](./Ejercicios_Guiados/Documentos/U2ACT_ED_Colas.pdf) |
 
 ---
+## 📦 Ordenamiento
+### 📘 Documentos relacionados
+
+| Archivo | Descripción | Enlace |
+|----------|--------------|--------|
+| `U2ACT1_ED_OrdenamientoBurbuja` | Actividad de Ordenamiento Burbuja | [Ver documento](./Ejercicios_Guiados/Documentos/U2ACT1_ED_OrdenamientoBurbuja.pdf) |
+
+---
 
 # Ejercicios Practicos
 
