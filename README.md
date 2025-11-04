@@ -106,7 +106,7 @@ Implementación de un **TAD Cola** en Java, y realización de operaciones median
 
 | Archivo | Descripcion | Enlace |
 |---------|-------------|--------|
-| `Actividad1.java` | Clase que ejecuta el programa | [Ver código](./Ejercicios_Practicos/actividad1/Actividad1.java) |
+| `Actividad1.java` | Clase que ejecuta el programa | [Ver código](./Ejercicios_Practicos/Listas/actividad1/Actividad1.java) |
 | `ListaSimple.java` | Clase de una lista simple | [Ver código](./Ejercicios_Practicos/actividad1/ListaSimple.java) |
 |`Nodo.java` | Clase de un Nodo simple | [Ver código](./Ejercicios_Practicos/actividad1/Nodo.java) |
 
