@@ -102,7 +102,9 @@ Implementación de un **TAD Cola** en Java, y realización de operaciones median
 
 # Ejercicios Practicos
 
-## Actividad 1 : Manipulación de lista enlazada
+## 📋Listas
+
+### Actividad 1 : Manipulación de lista enlazada
 
 | Archivo | Descripcion | Enlace |
 |---------|-------------|--------|
@@ -110,7 +112,7 @@ Implementación de un **TAD Cola** en Java, y realización de operaciones median
 | `ListaSimple.java` | Clase de una lista simple | [Ver código](./Ejercicios_Practicos/Listas/actividad1/ListaSimple.java) |
 |`Nodo.java` | Clase de un Nodo simple | [Ver código](./Ejercicios_Practicos/Listas/actividad1/Nodo.java) |
 
-## Actividad 2: Lista enlazada de palabras desde Archivo
+### Actividad 2: Lista enlazada de palabras desde Archivo
 
 | Archivo | Descripcion | Enlace |
 |---------|-------------|--------|
@@ -120,7 +122,7 @@ Implementación de un **TAD Cola** en Java, y realización de operaciones median
 | `ListaEnlazada.java` | Clase de una lista enlazada | [Ver código](./Ejercicios_Practicos/Listas/actividad2/ListaEnlazada.java) |
 |`Nodo.java` | Clase de un Nodo simple | [Ver código](./Ejercicios_Practicos/Listas/actividad2/Nodo.java) |
 
-## Actividad 3: Representación y evaluación de polinomios con listas enlazadas
+### Actividad 3: Representación y evaluación de polinomios con listas enlazadas
 
 | Archivo | Descripcion | Enlace |
 |---------|-------------|--------|
@@ -130,7 +132,7 @@ Implementación de un **TAD Cola** en Java, y realización de operaciones median
 | `Polinomio.java` | Clase de un polinomio | [Ver código](./Ejercicios_Practicos/Listas/actividad3/Polinomio.java) |
 | `Termino.java` | Clase de un término | [Ver código](./Ejercicios_Practicos/Listas/actividad3/Termino.java) |
 
-## Actividad 4: Polinomio de lista enlazada circular 
+### Actividad 4: Polinomio de lista enlazada circular 
 
 | Archivo | Descripcion | Enlace |
 |---------|-------------|--------|
@@ -138,7 +140,7 @@ Implementación de un **TAD Cola** en Java, y realización de operaciones median
 | `Nodo.java` | Clase de un Nodo simple | [Ver código](./Ejercicios_Practicos/Listas/actividad4/Nodo.java) |
 | `PolinomioCircular.java` | Clase de una lista circular de polinomios | [Ver código](./Ejercicios_Practicos/Listas/actividad4/PolinomioCircular.java) |
 
-## Actividad 5: Lista doblemente enlazada de caracteres
+### Actividad 5: Lista doblemente enlazada de caracteres
 
 | Archivo | Descripcion | Enlace |
 |---------|-------------|--------|
