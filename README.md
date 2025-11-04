@@ -148,6 +148,17 @@ Implementación de un **TAD Cola** en Java, y realización de operaciones median
 | `NodoDoble.java` | Clase de un Nodo doble | [Ver código](./Ejercicios_Practicos/Listas/actividad5/NodoDoble.java) |
 | `ListaDobleEnlazada.java` | Clase de una lista doblemente enlazada | [Ver código](./Ejercicios_Practicos/Listas/actividad5/ListaDobleEnlazada.java) |
 
+---
+
+## 📤Pilas
+
+### Modelo : Clase Stack utilizada en todos los ejercicios
+
+| Archivo | Descripción | Enlace |
+|---------|-------------|--------|
+| `Stack.java` | Clase de un Stack con tipos de datos genéricos | [Ver código](./Ejercicios_Practicos/Pilas/modelo/Stack.java) |
+| `IStack.java` | Interfaz con las operaciones de un Stack | [Ver código](./Ejercicios_Practicos/Pilas/modelo/IStack.java) |
+
 ## 🧰 Tecnologías utilizadas
 
 ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
