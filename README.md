@@ -159,6 +159,31 @@ Implementación de un **TAD Cola** en Java, y realización de operaciones median
 | `Stack.java` | Clase de un Stack con tipos de datos genéricos | [Ver código](./Ejercicios_Practicos/Pilas/modelo/Stack.java) |
 | `IStack.java` | Interfaz con las operaciones de un Stack | [Ver código](./Ejercicios_Practicos/Pilas/modelo/IStack.java) |
 
+### Actividad 1 : Pila Simple
+| Archivo | Descripción | Enlace |
+|---------|-------------|--------|
+| `Ejercicio1PilaSimple.java` | Clase que implementa un Stack y sus operaciones básicas | [Ver código](./Ejercicios_Practicos/Pilas/actividad1/Ejercicio1PilaSimple.java) |
+
+### Actividad 2 : Nombres
+| Archivo | Descripción | Enlace |
+|---------|-------------|--------|
+| `Ejercicio2Nombres.java` | Clase que implementa un Stack y realiza operaciones de inserción e inversión de elementos | [Ver código](./Ejercicios_Practicos/Pilas/actividad2/Ejercicio2Nombres.java) |
+
+### Actividad 3 : Verificar Pila
+| Archivo | Descripción | Enlace |
+|---------|-------------|--------|
+| `Ejercicio3VerificarPila.java` | Clase que implementa un Stack y verifica si está vacía | [Ver código](./Ejercicios_Practicos/Pilas/actividad3/Ejercicio3VerificarPila.java) |
+
+### Actividad 4 : Invertir palabra
+| Archivo | Descripción | Enlace |
+|---------|-------------|--------|
+| `Ejercicio4InvertirPalabra.java` | Clase que implementa un Stack e invierte un String | [Ver código](./Ejercicios_Practicos/Pilas/actividad4/Ejercicio4InvertirPalabra.java) |
+
+### Actividad 5 : Revertir Lista
+| Archivo | Descripción | Enlace |
+|---------|-------------|--------|
+| `Ejercicio5RevertirLista.java` | Clase que invierte un Array mediante el uso de un Stack | [Ver código](./Ejercicios_Practicos/Pilas/actividad5/Ejercicio5RevertirLista.java) |
+
 ## 🧰 Tecnologías utilizadas
 
 ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
