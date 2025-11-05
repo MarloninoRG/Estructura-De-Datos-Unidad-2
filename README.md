@@ -188,10 +188,30 @@ Implementación de un **TAD Cola** en Java, y realización de operaciones median
 
 ## ⏳ Colas
 
+### Modelo  
+| Archivo | Descripción | Enlace |
+|---------|-------------|--------|
+| `Cola.java` | Clase que implementa un TAD Cola | [Ver código](./Ejercicios_Practicos/Colas/modelo/Cola.java) |
+| `Nodo.java` | Clase que implementa un Nodo | [Ver código](./Ejercicios_Practicos/Colas/modelo/Nodo.java) |
+
 ### Actividad 1 : Comparar Listas 
 | Archivo | Descripción | Enlace |
 |---------|-------------|--------|
 | `Ejercicio1CompararColas.java` | Clase que compara dos colas y su contenido | [Ver código](./Ejercicios_Practicos/Colas/actividad1/Ejercicio1CompararColas.java) |
+
+### Actividad 1 : Supermercado 
+| Archivo | Descripción | Enlace |
+|---------|-------------|--------|
+| `Carrito.java` | Clase que implementa un carrito del supermercado | [Ver código](./Ejercicios_Practicos/Colas/actividad2/Carrito.java) |
+| `Cliente.java` | Clase que implementa un cliente de un supermercado | [Ver código](./Ejercicios_Practicos/Colas/actividad2/Cliente.java) |
+| `Ejercicio2Supermercado.java` | Clase que simula la ocupacion de carritos por clientes y las filas de un supermercado | [Ver código](./Ejercicios_Practicos/Colas/actividad2/Ejercicio2Supermercado.java) |
+
+### Actividad 1 : Supermercado 
+| Archivo | Descripción | Enlace |
+|---------|-------------|--------|
+| `Caja.java` | Clase que implementa una caja de un supermercado | [Ver código](./Ejercicios_Practicos/Colas/actividad3/Caja.java) |
+| `Cliente.java` | Clase que implementa un cliente de un supermercado | [Ver código](./Ejercicios_Practicos/Colas/actividad3/Cliente.java) |
+| `Ejercicio2SuperEsperanza.java` | Clase que simula la atención de los clientes en las cajas de un supermercado | [Ver código](./Ejercicios_Practicos/Colas/actividad3/Ejercicio2SuperEsperanza.java) |
 
 ## 🧰 Tecnologías utilizadas
 
