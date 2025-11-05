@@ -194,7 +194,7 @@ Implementación de un **TAD Cola** en Java, y realización de operaciones median
 | `Cola.java` | Clase que implementa un TAD Cola | [Ver código](./Ejercicios_Practicos/Colas/modelo/Cola.java) |
 | `Nodo.java` | Clase que implementa un Nodo | [Ver código](./Ejercicios_Practicos/Colas/modelo/Nodo.java) |
 
-### Actividad 1 : Comparar Listas 
+### Actividad 1 : Comparar Colas
 | Archivo | Descripción | Enlace |
 |---------|-------------|--------|
 | `Ejercicio1CompararColas.java` | Clase que compara dos colas y su contenido | [Ver código](./Ejercicios_Practicos/Colas/actividad1/Ejercicio1CompararColas.java) |
