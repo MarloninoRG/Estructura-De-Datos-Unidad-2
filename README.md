@@ -211,7 +211,7 @@ Implementación de un **TAD Cola** en Java, y realización de operaciones median
 |---------|-------------|--------|
 | `Caja.java` | Clase que implementa una caja de un supermercado | [Ver código](./Ejercicios_Practicos/Colas/actividad3/Caja.java) |
 | `Cliente.java` | Clase que implementa un cliente de un supermercado | [Ver código](./Ejercicios_Practicos/Colas/actividad3/Cliente.java) |
-| `Ejercicio2SuperEsperanza.java` | Clase que simula la atención de los clientes en las cajas de un supermercado | [Ver código](./Ejercicios_Practicos/Colas/actividad3/Ejercicio2SuperEsperanza.java) |
+| `Ejercicio2SuperEsperanza.java` | Clase que simula la atención de los clientes en las cajas de un supermercado | [Ver código](./Ejercicios_Practicos/Colas/actividad3/Ejercicio3SuperEsperanza.java) |
 
 ## 🧰 Tecnologías utilizadas
 
